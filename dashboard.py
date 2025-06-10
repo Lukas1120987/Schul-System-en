@@ -72,9 +72,9 @@ class Dashboard:
         standard_module_config = {
             "stundenplan": {"aktiv": True, "beschreibung": "Zeigt den persönlichen Stundenplan an"},
             "nachrichten": {"aktiv": True, "beschreibung": "Senden und Empfangen von Mitteilungen"},
-            "dateiablage": {"aktiv": True, "beschreibung": "Austausch von Dateien mit Gruppen"},
+            "files": {"aktiv": True, "beschreibung": "upload files"},
             "einstellungen": {"aktiv": True, "beschreibung": "Persönliche Einstellungen ändern"},
-            "cloud": {"aktiv": True, "beschreibung": "Dateien freigeben und abrufen"},
+            "cloud": {"aktiv": True, "beschreibung": "Share and access your data with users or groups"},
             "kalender": {"aktiv": True, "beschreibung": "Zeigt Termine und Veranstaltungen"},
             "ToDo": {"aktiv": True, "beschreibung": "Aufgabenverwaltung und Hausaufgaben"},
             "e_learning": {"aktiv": True, "beschreibung": "Lernmodule und Tests absolvieren"},
