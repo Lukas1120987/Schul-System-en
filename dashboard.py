@@ -413,7 +413,7 @@ class Dashboard:
 
 
     def logout(self):
-        from login import ope_login_window
+        from login import open_login_window
         self.master.destroy()
         open_login_window()
 
