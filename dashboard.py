@@ -73,7 +73,7 @@ class Dashboard:
             "stundenplan": {"aktiv": True, "beschreibung": "Zeigt den persönlichen Stundenplan an"},
             "nachrichten": {"aktiv": True, "beschreibung": "Senden und Empfangen von Mitteilungen"},
             "files": {"aktiv": True, "beschreibung": "upload files"},
-            "einstellungen": {"aktiv": True, "beschreibung": "Persönliche Einstellungen ändern"},
+            "settings": {"aktiv": True, "beschreibung": "settings for your personal account"},
             "cloud": {"aktiv": True, "beschreibung": "Share and access your data with users or groups"},
             "calendar": {"aktiv": True, "beschreibung": "private calendar"},
             "ToDo": {"aktiv": True, "beschreibung": "Aufgabenverwaltung und Hausaufgaben"},
