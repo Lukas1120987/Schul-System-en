@@ -12,7 +12,7 @@ import time
 import threading
 
 # === Konfiguration ===
-GITHUB_ZIP_URL = "https://github.com/Lukas1120987/SchulSystem/archive/refs/heads/main.zip"
+GITHUB_ZIP_URL = "https://github.com/Lukas1120987/Schul-System-en/archive/refs/heads/main.zip"
 UPDATE_DIR = "update_temp"
 EXCLUDE_DIRS = ["data", "__pycache__"]
 EXCLUDE_FILES = ["main.exe"]
@@ -116,7 +116,7 @@ def get_local_version():
 
 def get_remote_version():
     try:
-        with urllib.request.urlopen("https://raw.githubusercontent.com/Lukas1120987/SchulSystem/main/version.txt") as response:
+        with urllib.request.urlopen("https://raw.githubusercontent.com/Lukas1120987/Schul-System-en/main/version.txt") as response:
             return response.read().decode('utf-8').strip()
     except:
         return None
