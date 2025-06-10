@@ -269,7 +269,7 @@ class Dashboard:
             if not einstellungen.get("aktiv", False):
                 continue
 
-            if modulname == "adminbereich" and not self.user_data.get("is_admin"):
+            if modulname == "admin" and not self.user_data.get("is_admin"):
                 continue
             if modulname == "krankmeldungen" and self.user_data.get("group") != "Lehrer":
                 continue
@@ -315,7 +315,7 @@ class Dashboard:
         icons = {
             "stundenplan": "📅", "nachrichten": "💬", "dateiablage": "📂", "einstellungen": "⚙️",
             "cloud": "☁️", "kalender": "📜", "ToDo": "🗓", "e_learning": "📝",
-            "adminbereich": "🛠️", "supportverwaltung": "💬", "stundenplan_verwaltung": "📊",
+            "admin": "🛠️", "supportverwaltung": "💬", "stundenplan_verwaltung": "📊",
             "modulverwaltung": "🧩", "meldungen": "🛡", "sitzplan": "💻", "krankmeldungen": "🤒",
             "benachrichtigungen": "🔔", "sprechstunden": "📠", "ausleihe": "🖨️", "meldungen_verwaltung": "🛡", "team": "🛡"
         }
